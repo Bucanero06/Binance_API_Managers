@@ -32,8 +32,8 @@
 # WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
 # IN THE SOFTWARE.
-from Binance_API.carbon_binance_rest_api.exceptions import BinanceAPIException
-from Binance_API.carbon_binance_rest_api.manager import BinanceRestApiManager
+from Binance_API.rest_api_manager.exceptions import BinanceAPIException
+from Binance_API.rest_api_manager.manager import BinanceRestApiManager
 from manager import BinanceTrailingStopLossManager
 # from manager import BinanceTrailingStopLossManager  # need for testing the the cli interface during development
 from configparser import ConfigParser, ExtendedInterpolation
