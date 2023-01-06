@@ -1,0 +1,22 @@
+# Changes must also be made in the following files:
+# ./environment.yml
+# ./setup.py
+# https://github.com/conda-forge/carbon-binance-websocket-api-feedstock/blob/main/recipe/meta.yaml
+
+cheroot
+colorama
+flask
+flask_restful
+psutil
+requests
+ujson
+websocket-client
+websockets==10.3
+certifi
+cryptography
+dateparser
+pyOpenSSL
+pytz
+regex<=2022.3.2
+service-identity
+ubtsl
